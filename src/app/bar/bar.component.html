@@ -1,0 +1,23 @@
+<main class="main-container">
+  <app-heading></app-heading>
+    <section class="center-bars">
+
+      <div class="area area-first">
+        Make a(n) <span  class="difficulty"><em>{{ difficulty }}</em></span> level track
+      </div>
+
+      <div class="area area-second">The theme should be <span class="theme"><em>{{ theme }}</em></span>
+      </div>
+
+      <div class="area area-third">
+        The terrain should primarily be <span class="terrain"><em>{{ terrain }}</em></span>
+      </div>
+  
+      <div class="area area-fourth">And it should feature mostly <span class="feature"><em>{{ features }}</em></span>
+      </div>
+
+    </section><!-- .center-bar -->
+
+  <button class="button" type="submit" (click)="getValues()">Generate Ideas!</button>
+  <app-rider></app-rider>
+</main>

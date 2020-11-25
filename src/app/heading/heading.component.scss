@@ -1,0 +1,17 @@
+.main-heading {
+  font-family: 'Goldman', cursive;
+  font-size: 2rem;
+  margin: 2rem 0;
+  width: 31.6rem;
+  max-width: 50rem;
+  text-align: center;
+  color: rgb(255, 218, 6);
+  text-shadow: 0 0 .8rem #000;
+}
+
+@media (min-width: 768px) {
+  
+  .main-heading {
+    margin: 0;
+  }
+}

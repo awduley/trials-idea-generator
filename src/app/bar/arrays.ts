@@ -1,0 +1,6 @@
+export const valueArrays = {
+  difficulties: ['beginner', 'easy', 'medium', 'hard', 'hard', 'extreme', 'extreme', 'extreme', 'extreme', 'extreme', 'ninja'],
+  themes: ['medieval', 'futuristic', 'dinosaur', 'Lego', 'Atlantas', 'UFO', 'Mars', 'Star Wars', 'Alice in Wonderland', 'Disco', 'Arabian Nights', 'Black and White', 'casino', 'circus', 'Fire & Ice', 'enchanted forest', 'samurai', 'Silent Library', 'D&D', 'dragon', 'bigfoot', 'spooky forest', 'scary forest', 'New York', 'cruise ship', 'pirate', 'Fw Rw', 'yellow', 'red', 'pink', 'blue', 'green', 'purple', 'orange', 'haunted mansion', 'shrunk', 'pizzaria', 'space', 'in a giant clock', 'seaside party', 'farm', 'rally course', 'demolition derby', 'wild west', 'under the stars', 'jaws', 'golf course', 'RV park', 'land of giants', 'Loch Ness Monster'],
+  terrain: ['desert', 'beach', 'cliffs', 'underwater', 'flat snow', 'rocky snow', 'city', 'pavement', 'bridge', 'oasis', 'lake', 'flat grassy', 'sky', 'marsh', 'ocean'],
+  features: ['steep ramps', 'flat and fast', 'big air', 'lots of flip around wheely things', 'distance jumps', 'climb up walls', 'loopty loops', 'wheelies', 'endos', 'lots of jumps', 'very bumpy', 'can\'t get a rhythm']
+}

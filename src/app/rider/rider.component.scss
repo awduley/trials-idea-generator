@@ -1,0 +1,31 @@
+.rider-image {
+  visibility: hidden;
+}
+
+@media (min-width: 576px) {
+
+  .rider-image {
+    visibility: visible;
+  }
+
+  .rider-image-container {
+    animation-name: ride-across;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes ride-across {
+    0% {
+      transform: translateX(-360%) rotate(0);
+    }
+
+    50% {
+      transform: translateX(0) rotate(-16deg);
+    }
+
+    100% {
+      transform: translateX(360%) rotate(-34deg);
+    }
+  }
+}
