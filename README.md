@@ -1,0 +1,1 @@
+# trials-idea-generator
